@@ -13,7 +13,7 @@ public class Q24_Insurance_policy {
             System.out.println("you are alllowed to take policy");
         }
         else if(c=='N'){
-            System.out.println("enter the male for m and  female for n");
+            System.out.println("enter the male for m and  female for f");
             char CH = sc.next().charAt(0);
             if(CH=='m'){
                 int age;
@@ -46,4 +46,5 @@ public class Q24_Insurance_policy {
         }
     }
 }
+
 
